@@ -2,7 +2,7 @@
 const yargs       = require('yargs');
 const storage     = require('node-persist');
 //const { version } = require('./package.json');
-const env         = require('./env');
+const env         = require('./lib/env');
 
 // Environment reset/sanity check
 // - prereqs
@@ -19,7 +19,7 @@ const env         = require('./env');
         .version()
         .demandCommand(1, 'Did you forget to specify a command?')
         .recommendCommands()
-        .showHelpOnFail(false, 'Specify --help for available options')
+        .showHelpOnFail(true, 'Specify --help for available options')
         .strict(true)
         .help()
         .wrap(yargs.terminalWidth())

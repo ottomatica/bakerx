@@ -3,6 +3,7 @@
   "version": "0.5.0",
   "description": "Front-end for creating and managing virtual environments",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "mocha test"
   },
@@ -21,8 +22,10 @@
   "homepage": "https://github.com/ottomatica/bakerx#readme",
   "dependencies": {
     "chalk": "^3.0.0",
+    "download": "^7.1.0",
     "node-persist": "^3.0.5",
-    "yargs": "^15.0.2",
-    "virtcrud": "github:ottomatica/virtcrud"
+    "progress": "^2.0.3",
+    "virtcrud": "github:ottomatica/virtcrud",
+    "yargs": "^15.0.2"
   }
 }
