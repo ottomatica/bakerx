@@ -1,0 +1,27 @@
+{
+  "name": "bakerx",
+  "version": "0.5.0",
+  "description": "Front-end for creating and managing virtual environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottomatica/bakerx.git"
+  },
+  "keywords": [
+    "virtual"
+  ],
+  "author": "ottomatica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ottomatica/bakerx/issues"
+  },
+  "homepage": "https://github.com/ottomatica/bakerx#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "node-persist": "^3.0.5",
+    "yargs": "^15.0.2"
+  }
+}
