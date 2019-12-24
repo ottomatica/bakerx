@@ -22,6 +22,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "node-persist": "^3.0.5",
-    "yargs": "^15.0.2"
+    "yargs": "^15.0.2",
+    "virtcrud": "github:ottomatica/virtcrud"
   }
 }
