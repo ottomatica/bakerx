@@ -23,6 +23,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "download": "^7.1.0",
+    "fs-extra": "^8.1.0",
     "node-persist": "^3.0.5",
     "progress": "^2.0.3",
     "virtcrud": "github:ottomatica/virtcrud",
