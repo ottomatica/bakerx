@@ -3,7 +3,9 @@
 Bakerx is a front-end for creating and managing (micro) virtual environments. With bakerx you can quickly create a development environments to run you code. 
 
 See a running demo below: 
-TODO: [insert asccinema screencast here]
+
+[![asciicast](https://asciinema.org/a/RD2sHPfpgC1aH0uCyiTtyEAoV.svg)](https://asciinema.org/a/RD2sHPfpgC1aH0uCyiTtyEAoV)
+
 
 ## Installations
 
