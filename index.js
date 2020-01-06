@@ -1,12 +1,20 @@
 #!/usr/bin/env node
 const yargs       = require('yargs');
 const env = require('./lib/env');
+const isWsl = require('is-wsl');
+const chalk = require('chalk');
 
 // Environment reset/sanity check
 // - prereqs
 // - permissions
 // - required files
 (async () => {
+
+    if( isWsl )
+    {
+        console.log(chalk.red(`Running virtualization software inside Windows Subsystem for Linux is not supported.`))
+        return;
+    }
 
     await env.setup();
 
