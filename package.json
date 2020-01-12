@@ -1,6 +1,6 @@
 {
   "name": "bakerx",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Front-end for creating and managing virtual environments",
   "main": "index.js",
   "bin": "index.js",
@@ -24,7 +24,7 @@
     "chalk": "^3.0.0",
     "download": "^7.1.0",
     "fs-extra": "^8.1.0",
-    "got": "^10.2.1",
+    "got": "^10.2.2",
     "is-wsl": "^2.1.1",
     "node-persist": "^3.0.5",
     "progress": "^2.0.3",
