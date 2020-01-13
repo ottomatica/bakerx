@@ -4,8 +4,9 @@ Bakerx is a front-end for creating and managing (micro) virtual environments. Wi
 
 See a running demo below: 
 
-[![asciicast](https://asciinema.org/a/RD2sHPfpgC1aH0uCyiTtyEAoV.svg)](https://asciinema.org/a/RD2sHPfpgC1aH0uCyiTtyEAoV)
-
+<p align="center">
+  <img src="./doc/img/demo.gif">
+</p>
 
 ## Installation
 
