@@ -7,9 +7,15 @@ See a running demo below:
 [![asciicast](https://asciinema.org/a/RD2sHPfpgC1aH0uCyiTtyEAoV.svg)](https://asciinema.org/a/RD2sHPfpgC1aH0uCyiTtyEAoV)
 
 
-## Installations
+## Installation
 
+```bash
+$ npm install ottomatica/bakerx -g
 ```
+
+Or, for local dev:
+
+```bash
 git clone https://github.com/ottomatica/bakerx
 cd bakerx
 npm install
