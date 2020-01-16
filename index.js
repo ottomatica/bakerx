@@ -3,6 +3,9 @@ const yargs       = require('yargs');
 const env = require('./lib/env');
 const isWsl = require('is-wsl');
 const chalk = require('chalk');
+const child_process = require('child_process')
+const version = require('./package.json').version;
+const virtcrudVersion = JSON.parse(child_process.execSync(`cd ${__dirname} && npm list virtcrud --json`).toString()).dependencies.virtcrud.version;
 
 // Environment reset/sanity check
 // - prereqs
@@ -21,7 +24,7 @@ const chalk = require('chalk');
     yargs
     //    .middleware(check)
         .commandDir('./lib/commands')
-        .version()
+        .version(`bakerx@${version}\nvirtcrud@${virtcrudVersion}`)
         .demandCommand(1, 'Did you forget to specify a command?')
         .recommendCommands()
         .showHelpOnFail(true, 'Specify --help for available options')
