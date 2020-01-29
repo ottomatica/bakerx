@@ -1,6 +1,6 @@
 {
   "name": "bakerx",
-  "version": "0.6.3",
+  "version": "0.6.5",
   "description": "Front-end for creating and managing virtual environments",
   "main": "index.js",
   "bin": "index.js",
@@ -22,9 +22,10 @@
   "homepage": "https://github.com/ottomatica/bakerx#readme",
   "dependencies": {
     "chalk": "^3.0.0",
-    "follow-redirects": "^1.9.0",
+    "connectors": "github:ottomatica/infra.connectors",
+    "follow-redirects": "^1.10.0",
     "fs-extra": "^8.1.0",
-    "got": "^10.2.2",
+    "got": "^10.3.0",
     "is-wsl": "^2.1.1",
     "node-persist": "^3.0.5",
     "ora": "^4.0.3",
