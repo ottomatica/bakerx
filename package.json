@@ -25,7 +25,7 @@
     "connectors": "github:ottomatica/infra.connectors",
     "follow-redirects": "^1.10.0",
     "fs-extra": "^8.1.0",
-    "got": "^10.3.0",
+    "got": "^10.4.0",
     "infra.connectors": "github:ottomatica/infra.connectors",
     "is-wsl": "^2.1.1",
     "node-persist": "^3.0.5",
@@ -33,6 +33,7 @@
     "slash": "^3.0.0",
     "tar": "^5.0.5",
     "virtcrud": "github:ottomatica/virtcrud",
+    "waitssh": "github:ottomatica/waitssh",
     "yargs": "^15.1.0"
   }
 }
