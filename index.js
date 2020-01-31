@@ -5,7 +5,7 @@ const isWsl = require('is-wsl');
 const chalk = require('chalk');
 const child_process = require('child_process')
 const version = require('./package.json').version;
-const virtcrudVersion = JSON.parse(child_process.execSync(`cd ${__dirname} && npm list virtcrud --json`).toString()).dependencies.virtcrud.resolved.split('#')[1].substring(0, 7);
+const virtcrudVersion = JSON.parse(child_process.execSync(`npm list virtcrud --json`, {cwd: __dirname}).toString()).dependencies.virtcrud.resolved.split('#')[1].substring(0, 7);
 
 // Environment reset/sanity check
 // - prereqs
