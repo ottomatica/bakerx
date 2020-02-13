@@ -22,7 +22,6 @@
   "homepage": "https://github.com/ottomatica/bakerx#readme",
   "dependencies": {
     "chalk": "^3.0.0",
-    "connectors": "github:ottomatica/infra.connectors",
     "follow-redirects": "^1.10.0",
     "fs-extra": "^8.1.0",
     "got": "^10.5.5",
