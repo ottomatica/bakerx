@@ -1,6 +1,6 @@
 {
   "name": "bakerx",
-  "version": "0.6.8",
+  "version": "0.6.9",
   "description": "Front-end for creating and managing virtual environments",
   "main": "index.js",
   "bin": "index.js",
@@ -27,7 +27,6 @@
     "got": "^10.5.7",
     "infra.connectors": "github:ottomatica/infra.connectors",
     "is-wsl": "^2.1.1",
-    "node-persist": "^3.0.5",
     "ora": "^4.0.3",
     "slash": "^3.0.0",
     "tar": "^5.0.5",
