@@ -24,7 +24,7 @@
     "chalk": "^3.0.0",
     "follow-redirects": "^1.10.0",
     "fs-extra": "^8.1.0",
-    "got": "^10.5.7",
+    "got": "^10.6.0",
     "infra.connectors": "github:ottomatica/infra.connectors",
     "is-wsl": "^2.1.1",
     "ora": "^4.0.3",
