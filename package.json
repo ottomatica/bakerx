@@ -27,7 +27,7 @@
     "got": "^10.6.0",
     "infra.connectors": "github:ottomatica/infra.connectors",
     "is-wsl": "^2.1.1",
-    "ora": "^4.0.3",
+    "ora": "^4.0.4",
     "slash": "^3.0.0",
     "tar": "^5.0.5",
     "virtcrud": "github:ottomatica/virtcrud",
