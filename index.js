@@ -17,16 +17,16 @@ const os = require('os');
 
     if( isWsl )
     {
-        console.log(chalk.red(`Running virtualization software inside Windows Subsystem for Linux is not supported.`))
+        console.log(chalk.red(`Error: Running virtualization software inside Windows Subsystem for Linux is not supported.`))
         return;
     }
 
     if (!connector.checkVirt()) {
         if (os.platform() === 'win32' && connector.checkHyperV())
-            console.log(chalk.red(`VirtualBox VMs cannot run when Hyper-V is enabled.`));
+            console.log(chalk.red(`Error: VirtualBox VMs cannot run when Hyper-V is enabled.`));
         
         else
-            console.log(chalk.red(`Virtualization support is required for running VMs, but it is disabled on this machine.`));
+            console.log(chalk.red(`Error: Virtualization support is required for running VMs, but it is disabled on this machine.`));
 
         return;
     }
