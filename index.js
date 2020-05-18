@@ -15,7 +15,7 @@ const virtcrudVersion = JSON.parse(child_process.execSync(`npm list virtcrud --j
 
     if( isWsl )
     {
-        console.log(chalk.red(`Running virtualization software inside Windows Subsystem for Linux is not supported.`))
+        console.log(chalk.red(`Error: Running virtualization software inside Windows Subsystem for Linux is not supported.`))
         return;
     }
 
