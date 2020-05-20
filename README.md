@@ -47,9 +47,9 @@ bakerx run example_alpine_vm alpine3.9-simple --memory 2048
 
 ### Connecting to VMs
 
-Finally, bakerx will give you an `ssh` command similar to what is shown below, which you can use to connect to the VM.
+Finally, after creating the VM, you can ssh to it by running the command below:
 ```
-ssh -i /home/samim/.bakerx/baker_rsa root@127.0.0.1 -p 2003 -o StrictHostKeyChecking=no
+bakerx ssh example_alpine_vm
 ```
 
 > bakerx uses port forwarding to connect to the VMs, so you need to specify the port, `-p`, when running the ssh command. 
