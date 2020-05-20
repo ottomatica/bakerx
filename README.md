@@ -52,4 +52,24 @@ Finally, after creating the VM, you can ssh to it by running the command below:
 bakerx ssh example_alpine_vm
 ```
 
-> bakerx uses port forwarding to connect to the VMs, so you need to specify the port, `-p`, when running the ssh command. 
+### Using bakerx.yml file
+
+Instead of specifying CLI arguments when creating a VM, you can specify the details in a file called `bakerx.yml`, which is useful for storing in SCM:
+
+```yaml
+name: example_alpine_vm
+image: alpine3.9-simple
+up: |                      # <--- optional
+  apk update
+  apk add ansible
+```
+Then from same directory you can run `bakerx run` to create you VM.
+
+You can also add multiple Bakerx VMs in `bakerx.yml` file, and running `bakerx run` will create them for you:
+```yaml
+servers:
+  - name: vm1
+    image: alpine3.9-simple
+  - name: vm2
+    image: alpine3.9-simple
+```
