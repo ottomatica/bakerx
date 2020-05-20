@@ -43,7 +43,13 @@ After pulling images, you can create VMs that run those images. Simply run the c
 bakerx run example_alpine_vm alpine3.9-simple --memory 2048
 ```
 
-> The `--memory | -m` flag is optional, and can be used to set the amount of shared memory with your virtual machine.
+#### `bakerx run` arguments (optional)
+  - `--memory | -m <AMOUNT>`: set the amount of shared memory with your virtual machine.
+  - `--ip <IP_ADDRESS>`: configure a host-only interface for the virtual machine, with the specified IP address
+  - `--sync`: mount a shared folder from your _current working directory_ in `/bakerx` inside the virtual machine
+  - `--up <PATH_TO_SCRIPT>`: execute specified shell script inside the virtual machine after provisioned
+
+> _Note: you can run `bakerx run --help` to see all CLI arguments and their description._
 
 ### Connecting to VMs
 
