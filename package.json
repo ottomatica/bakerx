@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -34,5 +34,8 @@
     "virtcrud": "github:ottomatica/virtcrud",
     "waitssh": "github:ottomatica/waitssh",
     "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
