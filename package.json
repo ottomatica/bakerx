@@ -30,7 +30,7 @@
     "js-yaml": "^3.14.0",
     "ora": "^4.0.4",
     "slash": "^3.0.0",
-    "tar": "^5.0.5",
+    "tar": "^6.0.2",
     "virtcrud": "github:ottomatica/virtcrud",
     "waitssh": "github:ottomatica/waitssh",
     "yargs": "^15.3.1"
