@@ -1,4 +1,4 @@
-# bakerx
+# bakerx | ![Bakerx CI](https://github.com/ottomatica/bakerx/workflows/Bakerx%20CI/badge.svg)
 
 Bakerx is a front-end for creating and managing (micro) virtual environments. With bakerx you can quickly create a development environments to run you code. 
 
