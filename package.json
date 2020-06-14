@@ -32,7 +32,7 @@
     "slash": "^3.0.0",
     "tar": "^6.0.2",
     "virtcrud": "github:ottomatica/virtcrud",
-    "waitssh": "github:ottomatica/waitssh",
+    "waitssh": "^1.0.3",
     "yargs": "^15.3.1"
   },
   "devDependencies": {
