@@ -1,0 +1,6 @@
+---
+servers:
+  - name: bakerx-test-vm1
+    image: alpine3.9-simple
+  - name: bakerx-test-vm2
+    image: alpine3.9-simple
