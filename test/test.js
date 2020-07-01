@@ -3,7 +3,7 @@ const execSync = require('child_process').execSync;
 
 describe('Run an Ubuntu VM with host-only networking', () => {
     test('Pull `bionic` Image', () => {
-        execSync('node index.js pull cloud-images.ubuntu.com bionic', { stdio: 'inherit' });
+        execSync('node index.js pull cloud-images.ubuntu.com bionic | tail -15', { stdio: 'inherit' });
     });
 
     test('Run a VM with host-only networking, 2GB memory, and sync folder', () => {
@@ -23,7 +23,7 @@ describe('Run an Ubuntu VM with host-only networking', () => {
 
 describe('Run an Alpine 3.9 VM', () => {
     test('Pull `alpine3.9-simple` Image', () => {
-        execSync('node index.js pull ottomatica/slim#images alpine3.9-simple', { stdio: 'inherit' });
+        execSync('node index.js pull ottomatica/slim#images alpine3.9-simple | tail -15', { stdio: 'inherit' });
     });
 
     test('Run a VM with 1GB memory', () => {
@@ -43,7 +43,7 @@ describe('Run an Alpine 3.9 VM', () => {
 
 describe('Run two Alpine 3.9 VMs from bakerx.yml', () => {
     test('Pull `alpine3.9-simple` Image', () => {
-        execSync('node index.js pull ottomatica/slim#images alpine3.9-simple', { stdio: 'inherit' });
+        execSync('node index.js pull ottomatica/slim#images alpine3.9-simple | tail -15', { stdio: 'inherit' });
     });
 
     test('Run two VMs from bakerx.yml', () => {
