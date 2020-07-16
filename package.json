@@ -24,7 +24,7 @@
     "chalk": "^4.1.0",
     "follow-redirects": "^1.12.1",
     "fs-extra": "^9.0.1",
-    "got": "^11.4.0",
+    "got": "^11.5.0",
     "infra.connectors": "github:ottomatica/infra.connectors",
     "is-wsl": "^2.2.0",
     "js-yaml": "^3.14.0",
@@ -33,7 +33,7 @@
     "tar": "^6.0.2",
     "virtcrud": "github:ottomatica/virtcrud",
     "waitssh": "^1.0.3",
-    "yargs": "^15.4.0"
+    "yargs": "^15.4.1"
   },
   "devDependencies": {
     "jest": "^26.1.0"
