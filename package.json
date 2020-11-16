@@ -33,7 +33,7 @@
     "tar": "^6.0.2",
     "virtcrud": "github:ottomatica/virtcrud",
     "waitssh": "^1.0.3",
-    "yargs": "^15.4.1"
+    "yargs": "^16.1.1"
   },
   "devDependencies": {
     "jest": "^26.3.0"
