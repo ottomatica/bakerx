@@ -28,7 +28,7 @@
     "infra.connectors": "github:ottomatica/infra.connectors",
     "is-wsl": "^2.2.0",
     "js-yaml": "^3.14.0",
-    "ora": "^5.0.0",
+    "ora": "^5.2.0",
     "slash": "^3.0.0",
     "tar": "^6.0.2",
     "virtcrud": "github:ottomatica/virtcrud",
