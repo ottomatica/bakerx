@@ -27,7 +27,7 @@
     "got": "^11.8.1",
     "infra.connectors": "github:ottomatica/infra.connectors",
     "is-wsl": "^2.2.0",
-    "js-yaml": "^3.14.1",
+    "js-yaml": "^4.0.0",
     "ora": "^5.3.0",
     "slash": "^3.0.0",
     "tar": "^6.1.0",
