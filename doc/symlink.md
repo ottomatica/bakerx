@@ -62,3 +62,13 @@ This setting is available in the Settings app. To access it, open `Settings->Upd
 
 If you've completed these steps, you should be able to create symlinks in Windows!
 
+### Symlinking `node_modules` inside the VM
+
+Alternatively, if you can't enable symlinks in Windows, create and symlink a folder to the shared folder's `node_modules`. Assuming your package.json exists in `/bakerx` (the shared folder), you should run the commands below inside the vm:
+
+```bash
+mkdir -p ~/node_modules /bakerx/node_modules
+sudo mount --bind ~/node_modules /bakerx/node_modules
+```
+
+then, you will be able to run `npm install` in `/bakerx` directory normally, and the needed symlinks will be created successfully by npm.
