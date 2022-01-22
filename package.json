@@ -1,6 +1,6 @@
 {
   "name": "bakerx",
-  "version": "0.7.3",
+  "version": "0.8.0",
   "description": "Front-end for creating and managing virtual environments",
   "main": "index.js",
   "bin": "index.js",
@@ -36,6 +36,6 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^27.4.7"
   }
 }
