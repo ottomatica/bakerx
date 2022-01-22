@@ -1,6 +1,6 @@
 {
   "name": "bakerx",
-  "version": "0.7.3",
+  "version": "0.8.0",
   "description": "Front-end for creating and managing virtual environments",
   "main": "index.js",
   "bin": "index.js",

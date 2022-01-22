@@ -8,7 +8,11 @@ const version = require('./package.json').version;
 
 let virtcrudVersion;
 try {
-    virtcrudVersion = JSON.parse(child_process.execSync(`npm list virtcrud --json`, { cwd: __dirname, stdio: ['pipe', 'pipe', 'ignore'] }).toString()).dependencies.virtcrud.resolved.split('#')[1].substring(0, 7);
+
+    const packages = require('./package-lock.json').packages;
+    let dep = packages["node_modules/virtcrud"];    
+    virtcrudVersion = `${dep.version} ${dep.resolved.split('#')[1].substring(0,7)}`;
+    
 } catch (err) {
     virtcrudVersion = 'UNKNOWN';
 }
